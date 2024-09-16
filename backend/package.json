@@ -1,12 +1,23 @@
 {
   "name": "mon-vieux-grimoire-backend",
   "version": "1.0.0",
-  "description": "backend de mon vieux grimoire",
+  "description": "backend du projet P7 mon vieux grimoire",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "fs-extra": "^11.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.1",
+    "mongoose-unique-validator": "^5.0.0",
+    "multer": "^1.4.5-lts.1",
+    "sharp": "^0.33.2"
+  }
 }
