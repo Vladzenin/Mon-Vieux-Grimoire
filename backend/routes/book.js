@@ -5,7 +5,7 @@ const auth = require('../middleware/auth');
 const multer = require('../middleware/multer-config');
 const sharp = require('../middleware/sharp-config');
 
-const bookController = require('../controllers/book')
+const bookController = require('../controller/book')
 
 // Create book rating
 router.post("/:id/rating", auth, bookController.setRating);
