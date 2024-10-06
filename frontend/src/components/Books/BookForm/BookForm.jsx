@@ -52,6 +52,7 @@ function BookForm({ book, validate }) {
       if (!data.rating) {
         /* eslint-disable no-param-reassign */
         data.rating = 0;
+        alert('Vous devez ajouter une note');
         /* eslint-enable no-param-reassign */
       }
       const newBook = await addBook(data);

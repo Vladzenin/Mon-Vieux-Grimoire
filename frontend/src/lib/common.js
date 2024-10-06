@@ -157,7 +157,6 @@ export async function updateBook(data, id) {
     year: data.year,
     genre: data.genre,
   };
-  console.log(data.file[0]);
   if (data.file[0]) {
     newData = new FormData();
     newData.append('book', JSON.stringify(book));
